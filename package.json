@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evshiron/nwjs-builder-phoenix.git"
+    "url": "git+https://github.com/Vestiacom/nwjs-builder-phoenix.git"
   },
   "author": "evshiron",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/evshiron/nwjs-builder-phoenix/issues"
+    "url": "https://github.com/Vestiacom/nwjs-builder-phoenix/issues"
   },
-  "homepage": "https://github.com/evshiron/nwjs-builder-phoenix#readme",
+  "homepage": "https://github.com/Vestiacom/nwjs-builder-phoenix#readme",
   "devDependencies": {
     "@types/bluebird": "^3.5.3",
     "@types/debug": "0.0.29",
