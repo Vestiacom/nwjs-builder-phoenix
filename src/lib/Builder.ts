@@ -710,6 +710,10 @@ export class Builder {
             return;
         }
 
+        console.log("Waiting 5 minutes");
+
+        await new Promise(resolve => setTimeout(resolve, 6 * 60 * 1000));
+
         const versionInfo = new NsisVersionInfo(resolve(this.dir, config.output, 'versions.nsis.json'));
 
         const targetNsis = resolve(dirname(sourceDir), `${ basename(sourceDir) }-Setup.exe`);
