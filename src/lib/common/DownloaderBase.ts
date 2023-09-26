@@ -93,10 +93,9 @@ export abstract class DownloaderBase {
         case 'x86':
         case 'ia32':
             return 'ia32';
+        case 'arm64':
         case 'x64':
             return 'x64';
-        case 'arm64':
-            return 'arm64';
         default:
             throw new Error('ERROR_UNKNOWN_PLATFORM');
         }
